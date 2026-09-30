@@ -179,15 +179,31 @@ export default function ProductsPage() {
             />
             <div className="pnc-overlay" aria-hidden="true" />
           </div>
+
           <div className="site-container pnc-inner">
-            <Reveal className="pnc-copy">
+            <Reveal className="pnc-top">
               <span className="pnc-kicker">NATURALLY CONNECTED</span>
-              <h2 className="pnc-title">Naturally Connected</h2>
-              <p>The quality of what we grow is closely connected to the health of the environment around it.</p>
-              <p>That is why we look beyond the crop itself. We care about the soil, water, ecosystem and farming practices that make every harvest possible.</p>
-              <div className="pnc-actions">
-                <Link href="#portfolio" className="btn btn-primary">Explore Our Products <span>→</span></Link>
-                <Link href="/contact" className="pnc-link">Enquire With Us <span>→</span></Link>
+              <h2 className="pnc-title">
+                Every harvest begins<br />
+                <em>long before the crop is ready.</em>
+              </h2>
+            </Reveal>
+
+            <Reveal className="pnc-body" delay={80}>
+              <div className="pnc-body-copy">
+                <p>The quality of what we grow is closely connected to the health of the environment around it.</p>
+                <p>That is why we look beyond the crop itself. We care about the soil, water, ecosystem and farming practices that make every harvest possible.</p>
+                <div className="pnc-pills">
+                  <span>🌱 Healthy Soil</span>
+                  <span>💧 Responsible Water Use</span>
+                  <span>🌿 Biodiversity</span>
+                  <span>☀️ Natural Cultivation</span>
+                </div>
+              </div>
+              <div className="pnc-body-cta">
+                <p className="pnc-cta-label">Interested in our produce?</p>
+                <Link href="/contact" className="btn btn-primary pnc-cta-btn">Enquire With Us <span>→</span></Link>
+                <Link href="#portfolio" className="pnc-link">View Products <span>→</span></Link>
               </div>
             </Reveal>
           </div>

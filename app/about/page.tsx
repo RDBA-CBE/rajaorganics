@@ -148,12 +148,51 @@ export default function AboutPage() {
         </section>
 
         {/* Our Perspective */}
-        <section className="sub-section perspective-section">
-          <div className="site-container perspective-inner">
-            <Reveal className="section-heading bordered-heading gold-border">
-              <span className="section-kicker">OUR PERSPECTIVE</span>
-              <h2>We do not see sustainability as a trend.<br />We see it as a responsibility.</h2>
-              <p>A responsibility to the land we cultivate, the resources we depend on, the people we serve and the generations who will come after us.</p>
+        <section className="about-perspective">
+          <div className="about-perspective-bg" aria-hidden="true">
+            <Image
+              src="/images/about/Our Philosophy.webp"
+              alt=""
+              fill
+              sizes="100vw"
+              className="cover-image"
+            />
+            <div className="about-perspective-overlay" />
+          </div>
+
+          <div className="site-container about-perspective-inner">
+            <Reveal className="about-perspective-copy">
+              <span className="section-kicker" style={{ color: '#d9a711' }}>OUR PERSPECTIVE</span>
+              <blockquote className="about-perspective-quote">
+                &ldquo;We do not see sustainability as a trend.<br />
+                We see it as a responsibility.&rdquo;
+              </blockquote>
+              <p className="about-perspective-sub">
+                A responsibility to the land we cultivate, the resources we depend on,
+                the people we serve and the generations who will come after us.
+              </p>
+            </Reveal>
+
+            <Reveal className="about-perspective-stats" delay={120}>
+              <div className="about-perspective-stat">
+                <strong>100%</strong>
+                <span>Organic Practices</span>
+              </div>
+              <div className="about-perspective-divider" aria-hidden="true" />
+              <div className="about-perspective-stat">
+                <strong>15+</strong>
+                <span>Years of Farming</span>
+              </div>
+              <div className="about-perspective-divider" aria-hidden="true" />
+              <div className="about-perspective-stat">
+                <strong>Zero</strong>
+                <span>Compromise on Quality</span>
+              </div>
+              <div className="about-perspective-divider" aria-hidden="true" />
+              <div className="about-perspective-stat">
+                <strong>Future</strong>
+                <span>First Mindset</span>
+              </div>
             </Reveal>
           </div>
         </section>
