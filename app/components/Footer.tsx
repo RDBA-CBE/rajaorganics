@@ -66,9 +66,11 @@ export default function Footer() {
 
         <Reveal className="footer-column footer-contact" delay={140}>
           <h3>CONNECT</h3>
-          <p className="footer-contact-row"><span className="footer-line-icon"><PhoneIcon /></span><span>+91 98765 33578</span></p>
-          <p className="footer-contact-row"><span className="footer-line-icon"><MailIcon /></span><span>rajaorganics@gmail.com</span></p>
-          <p className="footer-contact-row footer-address"><span className="footer-line-icon"><PinIcon /></span><span>Raja Organic Farms<br />Green Valley Road, Thondamuthur,<br />Coimbatore, Tamil Nadu - 641109.</span></p>
+          <p className="footer-contact-row"><span className="footer-line-icon"><PhoneIcon /></span><span>+91 96989 04457</span></p>
+          <p className="footer-contact-row"><span className="footer-line-icon"><MailIcon /></span><span>mouneshrajav472000@gmail.com</span></p>
+          <p className="footer-contact-row footer-address"><span className="footer-line-icon"><PinIcon /></span><span>Raja Organic Farms<br />71, Pudur Vellangattuvalasu,<br />Kanagapuram, Erode - 638112.</span></p>
+
+          
         </Reveal>
 
         <Reveal className="footer-column footer-social" delay={210}>

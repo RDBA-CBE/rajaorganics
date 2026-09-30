@@ -224,13 +224,13 @@ export default function NatureCarePage() {
               <h2>Care for nature begins with a conversation.</h2>
               <p>Curious about our farming practices, interested in working together, or simply want to know more? We would love to hear from you.</p>
               <div className="nature-contact-details">
-                <a href="mailto:rajaorganics@gmail.com">
+                <a href="mailto:mouneshrajav472000@gmail.com">
                   <span className="nature-contact-detail-label">WRITE TO US</span>
-                  <span>rajaorganics@gmail.com <span aria-hidden="true">↗</span></span>
+                  <span>mouneshrajav472000@gmail.com <span aria-hidden="true">↗</span></span>
                 </a>
-                <a href="tel:+919876533578">
+                <a href="tel:+919698904457">
                   <span className="nature-contact-detail-label">GIVE US A CALL</span>
-                  <span>+91 98765 33578 <span aria-hidden="true">↗</span></span>
+                  <span>+91 96989 04457 <span aria-hidden="true">↗</span></span>
                 </a>
               </div>
               <p className="nature-contact-footnote">Thoughtful questions and new ideas are always welcome.</p>

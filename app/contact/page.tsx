@@ -43,9 +43,9 @@ export default function ContactPage() {
               <h2>Connect with Raja Organic Farms</h2>
               <div className="contact-details">
                 <div><span>RAJA ORGANIC FARMS</span></div>
-                <div><strong>Address</strong><span>Green Valley Road, Thondamuthur,<br />Coimbatore, Tamil Nadu – 641109</span></div>
-                <div><strong>Phone</strong><span>+91 98765 33578</span></div>
-                <div><strong>Email</strong><span>rajaorganics@gmail.com</span></div>
+                <div><strong>Address</strong><span>71, Pudur Vellangattuvalasu,,<br />Kanagapuram, Erode - 638112.</span></div>
+                <div><strong>Phone</strong><span>+91 96989 04457</span></div>
+                <div><strong>Email</strong><span>mouneshrajav472000@gmail.com</span></div>
               </div>
             </Reveal>
 
@@ -57,21 +57,20 @@ export default function ContactPage() {
           </div>
         </section>
 
-        <section className="sub-section sub-section-soft">
-          <div className="site-container visit-grid">
-            <Reveal className="section-heading bordered-heading gold-border reveal-left">
-              <span className="section-kicker">VISIT US</span>
-              <h2>Come closer to where it all begins.</h2>
-              <p>Raja Organic Farms, Green Valley Road, Thondamuthur, Coimbatore, Tamil Nadu – 641109.</p>
-            </Reveal>
-            <Reveal className="section-heading reveal-right" delay={100}>
-              <span className="section-kicker">FOLLOW OUR JOURNEY</span>
-              <h2>Follow Our Journey</h2>
-              <p>Stay connected with Raja Organic Farms and discover more about our farms, products, cultivation practices and our journey towards more responsible agriculture.</p>
-              <div className="follow-links"><span>Facebook</span><span>Instagram</span><span>YouTube</span></div>
-            </Reveal>
-          </div>
-        </section>
+     <section className="sub-section-soft">
+  
+       <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31305.223195725972!2d77.64490007558148!3d11.250160512448181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba971c4222ef4f1%3A0xe5eace8f2a57c19f!2sKanagapuram%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1790741742106!5m2!1sen!2sin"
+          width="100%"
+          height="550"
+          style={{ border: 0 }}
+          allowFullScreen
+          loading="lazy"
+          referrerPolicy="strict-origin-when-cross-origin"
+          title="Raja Organic Farms Location"
+        />
+  
+</section>
       </main>
       <Footer />
     </>

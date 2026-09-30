@@ -1020,8 +1020,8 @@ button { font: inherit; }
 .contact-info h2, .enquiry-card h2 { font-size: clamp(34px, 3.5vw, 50px); }
 .contact-details { margin-top: 32px; border-top: 1px solid #dde2d4; }
 .contact-details > div { padding: 18px 0; border-bottom: 1px solid #dde2d4; display: grid; gap: 7px; }
-.contact-details strong { font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: #7d6527; }
-.contact-details span { font-size: 14px; line-height: 1.5; }
+.contact-details strong { font-size: 14px; text-transform: uppercase; letter-spacing: 1px; color: #7d6527; font-weight: 600; }
+.contact-details span { font-size: 18px; line-height: 1.5; font-family:Arial, Helvetica, sans-serif !important; color:#000; font-weight: 400; }
 .enquiry-card { padding: 44px; background: #f7f8f3; border: 1px solid #e1e5d9; }
 .enquiry-form { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
 .enquiry-form label { display: grid; gap: 9px; font-size: 11px; font-weight: 700; letter-spacing: .7px; text-transform: uppercase; color: #3b4b2f; }
@@ -4105,7 +4105,7 @@ background: rgba(78, 106, 9, 0.5);
 
 .site-footer .footer-column > a,
 .site-footer .footer-column > p {
-  opacity: 0.92; font-size:16px;
+  font-size:16px; font-family: Arial, Helvetica, sans-serif; font-weight: 400; line-height: 1.45;
 }
 
 .site-footer .footer-column a {
@@ -4475,7 +4475,7 @@ background: rgba(78, 106, 9, 0.5);
 }
 .pp-desc {
   margin: 0 0 28px;
-  color: #5a6254;
+  color: #181818;
   font-size: 14px;
   line-height: 1.7;
 }
@@ -4492,8 +4492,8 @@ background: rgba(78, 106, 9, 0.5);
   padding: 11px 0;
   border-bottom: 1px solid rgba(36,63,3,.08);
   color: #3a4235;
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 600;
 }
 .pp-dot {
   width: 7px;
@@ -4507,9 +4507,9 @@ background: rgba(78, 106, 9, 0.5);
 .pq-subtitle {
   margin: 16px 0 0;
   max-width: 640px;
-  color: #5a6254;
-  font-size: 16px;
-  line-height: 1.7;
+  color: #181818;
+  font-size: 20px;
+  line-height: 1.7; font-family: Arial, Helvetica, sans-serif;
 }
 .pq-grid {
   margin-top: 48px;
@@ -4570,8 +4570,8 @@ background: rgba(78, 106, 9, 0.5);
 }
 .pq-body p {
   margin: 0;
-  color: #5a6254;
-  font-size: 13px;
+  color: #181818;
+  font-size: 14px;
   line-height: 1.68;
 }
 
@@ -5135,12 +5135,12 @@ background: rgba(78, 106, 9, 0.5);
   margin-top: 38px;
 }
 .nature-contact-details a { display: grid; gap: 5px; width: fit-content; color: #fff; }
-.nature-contact-details a > span:last-child { font-size: 14px; font-weight: 600; }
+.nature-contact-details a > span:last-child { font-size: 16px; font-weight: 600; font-family:var(--content-font);}
 .nature-contact-details a > span:last-child span { margin-left: 4px; color: #ddc477; }
 .nature-contact-details a:hover > span:last-child { color: #e8d493; }
 .nature-contact-detail-label {
   color: rgba(255,255,255,.55);
-  font-size: 9px;
+  font-size: 12px;
   font-weight: 700;
   letter-spacing: 1.6px;
 }
@@ -5985,8 +5985,8 @@ background: rgba(78, 106, 9, 0.5);
 }
 .nature-philosophy-pillar p {
   margin: 0;
-  color: rgba(255,255,255,.68);
-  font-size: 12px;
+  color: rgba(255,255,255,.7);
+  font-size: 14px;
   line-height: 1.65;
 }
 @media (max-width: 900px) {
