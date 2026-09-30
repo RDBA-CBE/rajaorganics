@@ -4787,11 +4787,11 @@ background: rgba(78, 106, 9, 0.5);
 .nature-kicker {
   display: inline-block;
   font-family: var(--serif);
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 3px;
-  color: #d9b44a;
+  color: var(--gold);
 }
 
 .nature-hero,
