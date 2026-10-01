@@ -124,9 +124,9 @@ const sections = [
     paragraphs: [
       'If you have any questions, concerns or requests relating to this Privacy Policy or the way we handle your personal information, please contact us.',
       'Raja Organic Farms',
-      'Address: [Complete Address]',
-      'Email: [Privacy / Official Email Address]',
-      'Phone: [Contact Number]',
+      'Address: Raja Organic Farms, 71, Pudur Vellangattuvalasu, Kanagapuram, Erode - 638112.',
+      'Email: mouneshrajav472000@gmail.com',
+      'Phone: +91 96989 04457',
       'For Privacy Related Queries: [Designated Contact Person / Privacy Contact, if applicable]',
     ],
   },

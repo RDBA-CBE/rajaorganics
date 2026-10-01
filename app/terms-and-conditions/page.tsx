@@ -18,7 +18,7 @@ const sections = [
   { title: '15. Privacy', paragraphs: ['Your use of this website is also subject to our Privacy Policy, which explains how we collect, use and protect personal information.', 'By using the website, you acknowledge that you have read and understood our Privacy Policy.'] },
   { title: '16. Changes to These Terms', paragraphs: ['Raja Organic Farms may update or modify these Terms and Conditions from time to time.', 'Changes will become effective when the revised terms are published on this website, unless otherwise stated.', 'We recommend reviewing this page periodically to remain informed about the current terms applicable to your use of the website.'] },
   { title: '17. Governing Law', paragraphs: ['These Terms and Conditions shall be governed by and interpreted in accordance with the applicable laws of India.', 'Any disputes arising in connection with the use of this website shall be subject to the jurisdiction of the appropriate courts in India.'] },
-  { title: '18. Contact Us', paragraphs: ['If you have any questions regarding these Terms and Conditions, please contact us.', 'Raja Organic Farms', 'Address: [Complete Address]', 'Email: [Official Email Address]', 'Phone: [Contact Number]'] },
+  { title: '18. Contact Us', paragraphs: ['If you have any questions regarding these Terms and Conditions, please contact us.', 'Raja Organic Farms', 'Address: Raja Organic Farms, 71, Pudur Vellangattuvalasu, Kanagapuram, Erode - 638112.', 'Email: mouneshrajav472000@gmail.com', 'Phone: +91 96989 04457'] },
 ];
 
 export default function TermsPage() {
