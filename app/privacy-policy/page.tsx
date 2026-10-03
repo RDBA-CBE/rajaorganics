@@ -143,6 +143,7 @@ export default function PrivacyPolicyPage() {
   return (
     <LegalPage
       title="Privacy Policy"
+      heroImage="/images/banner-sub.webp"
       intro={[
         'At Raja Organic Farms, we respect your privacy and are committed to protecting the personal information you choose to share with us.',
         'This Privacy Policy explains how we collect, use, store and protect information when you visit our website, submit an enquiry or interact with us through our digital platforms.',

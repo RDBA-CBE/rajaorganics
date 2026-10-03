@@ -25,6 +25,7 @@ export default function TermsPage() {
   return (
     <LegalPage
       title="Terms and Conditions"
+     heroImage="/images/banner-sub1.webp"
       intro={[
         'Welcome to the website of Raja Organic Farms. By accessing or using this website, you agree to comply with and be bound by the following Terms and Conditions.',
         'Please read these terms carefully before using our website. If you do not agree with any part of these terms, please discontinue use of the website.',

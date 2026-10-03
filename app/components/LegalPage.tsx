@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Header from './Header';
 import Footer from './Footer';
 import Reveal from './Reveal';
@@ -10,23 +11,33 @@ type LegalSection = {
 
 type LegalPageProps = {
   title: string;
+  kicker?: string;
+  heroImage: string;
   intro: string[];
   sections: LegalSection[];
   closingTitle?: string;
   closing?: string[];
 };
 
-export default function LegalPage({ title, intro, sections, closingTitle, closing }: LegalPageProps) {
+export default function LegalPage({ title, kicker = 'RAJA ORGANIC FARMS', heroImage, intro, sections, closingTitle, closing }: LegalPageProps) {
   return (
     <>
       <Header />
       <main>
         <section className="legal-hero">
-          <div className="site-container">
-            <Reveal>
-              <span className="section-kicker">RAJA ORGANIC FARMS</span>
+          <Image
+            src={heroImage}
+            alt={title}
+            fill
+            priority
+            sizes="100vw"
+            className="legal-hero-image"
+          />
+          <div className="legal-hero-overlay" aria-hidden="true" />
+          <div className="site-container legal-hero-inner">
+            <Reveal className="legal-hero-copy">
+              <span className="legal-hero-kicker">{kicker}</span>
               <h1>{title}</h1>
-              {intro.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
             </Reveal>
           </div>
         </section>
