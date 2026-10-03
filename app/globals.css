@@ -4443,10 +4443,10 @@ background: rgba(78, 106, 9, 0.5);
   padding: 28px 14px 14px;
   background: linear-gradient(to top, rgba(20,32,4,.78), transparent);
   color: #fff;
-  font-size: 12px;
+ font-size: clamp(14px, 1.2vw, 16px);
   font-weight: 600;
   letter-spacing: .6px;
-  text-align: center;
+  text-align: center; text-transform:uppercase;
 }
 .pp-body {
   display: flex;
@@ -4476,7 +4476,7 @@ background: rgba(78, 106, 9, 0.5);
 .pp-desc {
   margin: 0 0 28px;
   color: #181818;
-  font-size: 14px;
+ /* font-size: 14px;*/
   line-height: 1.7;
 }
 .pp-list {
@@ -4492,7 +4492,7 @@ background: rgba(78, 106, 9, 0.5);
   padding: 11px 0;
   border-bottom: 1px solid rgba(36,63,3,.08);
   color: #3a4235;
-  font-size: 16px;
+ /* font-size: 16px;*/
   font-weight: 600;
 }
 .pp-dot {
@@ -4563,15 +4563,15 @@ background: rgba(78, 106, 9, 0.5);
 .pq-body h3 {
   margin: 0 0 10px;
   font-family: var(--serif);
-  font-size: 20px;
-  font-weight: 500;
-  color: #1e290c;
+ font-size: clamp(18px, 1.6vw, 22px);
+  font-weight: 600;
+  color: #243F03;
   line-height: 1.15;
 }
 .pq-body p {
   margin: 0;
   color: #181818;
-  font-size: 14px;
+/*  font-size: 14px;*/
   line-height: 1.68;
 }
 
